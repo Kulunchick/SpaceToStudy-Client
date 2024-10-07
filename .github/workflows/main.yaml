@@ -30,7 +30,7 @@ jobs:
         with:
           name: dist-without-markdown
           path: node_modules
-          compression-level: 1
+          compression-level: 0
       
   # lint:
   #   needs: [install-dependency]
